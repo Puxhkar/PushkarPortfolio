@@ -89,7 +89,7 @@ const Portal = () => {
 
   const handleCollision = (payload: CollisionPayload) => {
     if (payload.type === "enter") {
-      window.open("https://vinay-matta.web.app/contact", "contact");
+      window.location.assign("/contact");
     } else {
       resetKeyboardEvents();
     }

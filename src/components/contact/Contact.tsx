@@ -19,7 +19,8 @@ const Contact: React.FC = () => {
 
     axios({
       method: "POST",
-      url: "https://vinay-matta-server.herokuapp.com/send",
+      // TODO: Replace with your own email backend endpoint (e.g. Resend, EmailJS, or a custom API route)
+      url: "https://your-backend.vercel.app/send",
       headers: { "Content-Type": "application/json" },
       data: { name: name, email: email, subject: subject, message: message },
     }).then((response) => {

@@ -12,23 +12,23 @@ const Education: React.FC = () => {
         Education
       </Text>
       <group rotation={[0, Math.PI, 0]} position={[-1, 1.1, -2]}>
-        <Text rotation={[Math.PI / 4, Math.PI, 0]}>DCRUST</Text>
+        <Text rotation={[Math.PI / 4, Math.PI, 0]}>NST · ADYPU</Text>
         <Text rotation={[Math.PI / 4, Math.PI, 0]} position={[1, 0, -5]}>
-          B.Tech ECE
+          B.E. AI &amp; ML
         </Text>
         <Text rotation={[Math.PI / 4, Math.PI, 0]} position={[1, 0, -10]}>
-          2018-2022
+          2024-2028
         </Text>
       </group>
       <group rotation={[0, Math.PI, 0]} position={[-2, 1.1, 18]}>
         <Text rotation={[Math.PI / 4, Math.PI, 0]} position={[4, 0, 0]}>
-          R.S. Public Sr. Sec. School
+          City Montessori School
         </Text>
         <Text rotation={[Math.PI / 4, Math.PI, 0]} position={[1, 0, -5]}>
-          Karnal, Haryana
+          Lucknow
         </Text>
         <Text rotation={[Math.PI / 4, Math.PI, 0]} position={[1, 0, -10]}>
-          Class X and XII
+          Class X &amp; XII
         </Text>
       </group>
     </group>

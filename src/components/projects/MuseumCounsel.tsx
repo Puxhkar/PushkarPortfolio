@@ -13,7 +13,7 @@ const MuseumCounsel = () => {
     <Project
       ScreenComponent={MCScreen}
       position={[-60, 0, -140]}
-      title="Museum Counsel"
+      title="StudentCodeBox"
       rotation={[0, -Math.PI / 2, 0]}
       model={mcModel}
       modelLeft={mcLeft}
@@ -27,9 +27,9 @@ export default MuseumCounsel;
 
 const MCScreen: React.FC = () => (
   <PlateScreen
-    title="Museum Counsel Web App"
-    description="A Web Application which gives its user the information about museums in India including reviews and location. It uses Basic web technologies like HTML, CSS, Bootstrap, JS, ExpressJS, NodeJS, MongoDB and Ejs."
-    visitLink="https://museum-counsel.herokuapp.com/"
-    codeLink="https://github.com/VinayMatta63/Museum-Counsel"
+    title="StudentCodeBox"
+    description="A SaaS-based coding education platform built with React, Next.js, Node.js, Express, and PostgreSQL. Students log in, pick problems, write code in a live editor, and get real-time evaluation feedback. Role-based access for instructors vs. students via Clerk."
+    visitLink="#"
+    codeLink="#"
   />
 );

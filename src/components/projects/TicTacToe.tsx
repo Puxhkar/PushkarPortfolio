@@ -27,10 +27,9 @@ export default TicTacToe;
 
 const TTTScreen: React.FC = () => (
   <PlateScreen
-    title="Tic Tac Toe"
-    description="A Multiplayer Tic-Tac-Toe game with random matchups , private rooms and AI
-      mode (using minimax algorithm) using react and firebase."
-    visitLink="https://tic-tac-toe-7fcb8.web.app/"
-    codeLink="https://github.com/VinayMatta63/tic-tac-toe-multipayer"
+    title="MessMatee — Smart Dining"
+    description="Highlights: QR-based student entry, real-time order tracking, role-based dashboards for admins and students, and automated daily/weekly reports. Backend powered by Prisma ORM with PostgreSQL for reliable, scalable data management."
+    visitLink="#"
+    codeLink="#"
   />
 );
