@@ -21,7 +21,7 @@ export default defineConfig(({ mode }) => {
       port: 3000,
     },
     build: {
-      outDir: "build",
+      outDir: "dist",
     },
   };
 });
